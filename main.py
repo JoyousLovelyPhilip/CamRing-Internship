@@ -56,7 +56,7 @@ outer_radius = radii[-1]
 
 thickness = outer_radius - inner_radius
 
-print("Inner Radius:", inner_radius)
+print("Inner Radius:", inner_radius)// inner ring radius of camring
 print("Outer Radius:", outer_radius)
 print("Ring Thickness (pixels):", thickness)
 radii = sorted([i[2] for i in circles[0]])
